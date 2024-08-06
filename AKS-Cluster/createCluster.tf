@@ -12,7 +12,7 @@ resource "azurerm_kubernetes_cluster" "nectarGrpCluster" {
 
   service_principal {
     client_id = "7a95d305-ef12-46b7-93c1-a401faf8554e"
-    client_secret = "e-18Q~O2RvSnG_AaiIHQEvBf9SLWHNFREZaMAarI"
+    client_secret = ""
   }
 
   default_node_pool {
